@@ -1,0 +1,1121 @@
+<!doctype html>
+<html ⚡>
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <link rel="canonical" href="self.html" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+</head>
+<body>
+  <amp-img src="https://www.parkercomedyshow.com/img/sticker-web.png" width="185" height="300" id ="peter"/>
+</br>
+  <amp-img src="https://www.parkercomedyshow.com/img/sticker-web-left.png" width="185" height="300" id ="paula"/>
+<amp-animation id="peter" layout="nodisplay" trigger="visibility">
+    <!--  duration is per iteration -->
+  <script type="application/json">
+    {      
+      "animations": [
+        {
+            "duration": "2s",
+            "selector": "#peter",
+            "keyframes": [
+                {"opacity": 0, "transform": "scale(.1)"},
+                {"opacity": 1, "transform": "scale(.25)"}
+            ]
+        },
+        {
+            "delay": "2s",
+            "duration": ".1s",
+            "iterations": 10,
+            "selector": "#peter",
+            "keyframes": [
+                {"transform": "scale(.25) rotate(5deg)"},
+                {"transform": "scale(.25) rotate(-5deg)"}
+            ]
+        },
+        {
+            "delay": "3s",  
+            "duration": "3s",
+            "selector": "#peter",
+            "keyframes": [
+                {"transform": "scale(.25) translateX(0%)"},
+                {"transform": "scale(.25) translateX(5000%)"}
+            ]
+        },
+        {
+            "delay": "7s",
+            "selector": "#peter",
+            "keyframes": [
+                {"opacity": 0},
+                {"opacity": 0}
+            ]
+        }]
+    }
+  </script>
+</amp-animation>
+<!--
+<amp-animation id="paula" layout="nodisplay" trigger="visibility">
+  <script type="application/json">
+    {      
+      "animations": [
+        {
+            "duration": "2s",
+            "selector": "#paula",
+            "keyframes": [
+                {"opacity": 0, "transform": "scale(.1)"},
+                {"opacity": 1, "transform": "scale(.25)"}
+            ]
+        },
+        {
+            "delay": "2s",
+            "duration": ".1s",
+            "iterations": 10,
+            "selector": "#paula",
+            "keyframes": [
+                {"transform": "scale(.25) rotate(5deg)"},
+                {"transform": "scale(.25) rotate(-5deg)"}
+            ]
+        },
+        {
+            "delay": "3s",  
+            "duration": "3s",
+            "selector": "#paula",
+            "keyframes": [
+                {"transform": "scale(.25) translateX(0%)"},
+                {"transform": "scale(.25) translateX(-5000%)"}
+            ]
+        }]
+    }
+  </script>
+</amp-animation>
+-->
+  </body>
+</html>
+
+<!--
+
+"transform": "translateX(0%)"
+
+"transform": "rotate(15deg)"
+
+-->
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<!-- https://cloud.google.com/storage/docs/hosting-static-website -->
+<!-- https://github.com/RyanFitzgerald/devportfolio -->
+<!-- add this someday: https://mapchart.net/usa.html -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mark Masters - Denver, CO Comedian</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124196687-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124196687-1');
+</script>
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "http://www.markmasters.co/images/mark-masters-headshot.jpg",
+      "jobTitle": "Stand-up comedian",
+      "name": "Mark Masters",
+      "birthPlace": "Denver, CO",
+      "gender": "male",
+      "url": "http://www.markmasters.co",
+	    "sameAs" : [ "http://www.notgoodyet.com/",
+      "http://www.vailcomedyshow.com/",
+      "http://www.twitter.com/themarkmasters"]
+    }
+    </script>
+
+  <!-- HTML Meta Tags -->
+
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="Mark Masters - Denver, CO - Comedian">
+  <meta itemprop="description" content="Mark Masters is a Denver, CO-based standup comedian who's insightful joke writing and playful delivery has delighted audiences across America.  He is not on Facebook.">
+  <meta itemprop="image" content="http://www.markmasters.co/images/mark-masters-vbc-jan-2020-square-mono-blue-tint-higher-face.jpg">
+
+  <!-- Newer Meta Info --> 
+  <meta name="keywords" content="mark, masters, mark masters, comedy, comedian, stand-up comedian, comic, corporate comedy, clean comedy, jokes, hosting, host, comedy works, denver, denver comedian, vail comedy show"> 
+  <link rel="canonical" href="http://www.markmasters.co/"/> 
+
+  <!-- Google+ Meta Info --> 
+  <meta itemprop="name" content="Mark Masters | Comedian"> 
+  <meta itemprop="description" content="Mark Masters is a Denver, CO-based standup comedian who's insightful joke writing and playful delivery has delighted audiences across America."> 
+  <meta itemprop="image" content="http://www.markmasters.co/images/mark-masters-headshot.jpg"> 
+  
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="http://www.markmasters.co">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mark Masters - Denver, CO - Comedian">
+  <meta property="og:description" content="Mark Masters is a Denver, CO-based standup comedian who's insightful joke writing and playful delivery has delighted audiences across America.">
+  <meta property="og:image" content="http://www.markmasters.co/images/mark-masters-vbc-jan-2020-square-mono-blue-tint-higher-face.jpg">
+  <meta property="og:site_name" content="Not Good Yet"/>
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://www.markmasters.co/">
+  <meta name="twitter:title" content="Mark Masters - Denver, CO - Comedian">
+  <meta name="twitter:description" content="Mark Masters is a Denver, CO-based standup comedian who's insightful joke writing and playful delivery has delighted audiences across America.">
+  <meta name="twitter:image" content="http://www.markmasters.co/images/mark-masters-vbc-jan-2020-square-mono-blue-tint-higher-face.jpg">
+  
+
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">Comedy</a>
+            </li>
+            <li>
+                <a href="#production">Production</a>
+            </li>
+            <li>
+                    <a href="#projects">Shows</a>
+            </li>
+            <li>
+                <a href="#experience">Appearances</a>
+            </li>
+            <li>
+                <a href="#skills">Joke Topics</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#laughlist">Mailing List</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Mark Masters</h1>
+            <h2>Comedian & Comedy Event Production</h2>
+            <a href="https://www.markmasters.co/showcase" class="btn-rounded-white">Weekly Online Comedy Showcase Fridays 6PM MDT</a></br></br>
+            <a href="#contact" class="btn-rounded-white">Write me a note</a>
+            <a href="http://www.notgoodyet.com" class="btn-rounded-white">Get my book</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-4">
+                            <h2 class="heading">Live</h2>
+                    </div>
+                    <div class="col-md-8"  style="background-color: #f2f2f5">
+                        <p>&nbsp;</p>
+                    <p style="text-align:center;">
+                        <a href = "https://www.markmasters.co/showcase">Every Friday 6PM MDT 30 minute showcase, COMEDY TEST KITCHEN</a></br></br>
+                        <!--
+                            <a href = "./events/March-20-21-2020-fresh-tracks-tour-mark-masters.html">Cancelled: Fresh Tracks Comedy Tour</a></br>(March 20-21, 2020: Aspen & Vail Colorado)</br></br>
+                        -->
+                            <!-- <a href = "images/tandoori-2019-05-15.jpeg"><img src="images/boulder-show.jpg" width="250" alt="See Mark Masters LIVE at a Boulder Comedy Showcase, Wednesday April 15 (image may be doctored)"></a></br></br> -->
+                            <!--<a href = "https://comedyworks.com/comedians/new-faces-contest-rd-1"><img src="images/mark-cw1-300-square.png" width = "100" alt="June 12 Comedy Works Downtown"></a> -->
+                        </p>
+                     <!--   <p style="text-align:center;">
+                            <a href = "https://www.parkercomedyshow.com">New Show: Parker Comedy Show</a></br>Debuts March 22, 2020 with headliner Derrick Stroup</br></br>
+                        </p>
+                      -->
+                        <div style="text-align:center;">
+                             <!--   <i><small><b>SHOW ALERTS</b></br>
+                                <div style="display: inline-block; text-align: left;">
+                             <i><small>SHOW ALERT - Mark Masters is <a href = "http://www.markmasters.co/images/tandoori-2019-05-15.jpeg">headlining a comedy show at Tandoori Grill in Boulder, CO</a> on May 15, 2019.  Free Show!</small></i></br>
+                                </br>
+                                <b>Steamboat</b> Comedy Night, <b>Friday September 13, 2019 8PM</b>, at Butcherknife Brewing 2875 Elk River Rd. Steamboat Springs CO 80477 (<a href = "https://www.brownpapertickets.com/event/4328331">Tickets</a>) With Pat Treuer
+                                </br></br><b>Vail</b> Comedy Show, <b>Saturday September 14, 2019 7PM</b>, at Vail Brewing Company 41290 US-6 Vail, CO 81657 (<a href = "http://www.vailcomedyshow.com">Tickets</a>, <a href="events/september-13-2019-steamboat-comedy-show-mark-masters-pat-treuer.html">Event Page</a>) With Kallan Reece, Pat Treuer, and Derrick Stroup
+                            </br></br>Click for September mountain<a href = "images/2019-mtn-tour-pat-mark.jpg"> tour poster</a>.</br>
+                                                     <b>St. Louis:</b> <a href="https://theworldseriesofcomedy.com/lateshows">World Series of Comedy Late Show</a>, <b>Tuesday September 24 10PM</b> at The Casino Queen, St. Louis hosted by Jerry Corley (<a href = "events/september-24-2019-world-series-of-comedy-late-night-show-mark-masters.html">Event Page</a>)
+                            </br></br>     
+                        -->
+                        <!--
+                        <br>
+                        2019 <a href="http://www.notgoodyet.com">Book</a> Tour under way: Colorado Springs, Denver, Boulder, Ft. Collins, Seattle WA & Chicago IL
+                    </br>Next stop: <b>Wednesday October 23, 2019</b> 8:30AM 324 Jefferson Street, <b>Ft. Collins</b>, CO (<a href="events/October-23-2019-mark-masters-book-tour-ft-collins-co.html">Event Page</a>)
+                    </br></br>
+                             <b>Vail, CO</b> Comedy Show, <b>Saturday November 9, 2019 7:30PM</b>, at Vail Brewing Company 41290 US-6 Vail, CO 81657 (<a href = "http://www.vailcomedyshow.com">Tickets</a>)
+                            </br></br>
+                            <b>Steamboat Springs, CO</b> Winter Welcome Comedy Show, <b>Saturday November 29, 2019 8PM</b>, at Schmiggity's Live Music & Dance Bar 821 Lincoln Ave, Steamboat Springs, CO 80487 (free show, <a href = "events/November-29-2019-steamboat-winter-welcome-comedy-show-mark-masters.html">Event Page</a>)
+                           
+                           
+                        </br></br>
+                  
+                    </br>
+                    -->
+                        <!--<p>
+                            <i>Other Upcoming Shows: Wednesday May 15 Boulder Showcase</i></br></br>
+                        </p>
+                        -->
+                        <!-- https://www.artists.bandsintown.com/support/widget -->
+                        <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Mark Masters Comedy" data-display-local-dates="false" data-display-past-dates="false" data-auto-style="false" data-text-color="#000000" data-link-color="#217dbb" data-background-color="rgba(0,0,0,0)" data-display-limit="15" data-display-start-time="false" data-link-text-color="#FFFFFF" data-display-lineup="false" data-display-play-my-city="false" data-separator-color="rgba(124,124,124,0.25)"></a>
+                    </br></br>
+                    </div>
+                    
+            </div>
+        </div>
+        </br></br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Comedy</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>&nbsp;</p>
+                    <p>
+                        Good clean comedy and workshops for your company, corporate event, meetup group, or at comedy showcases.  I host and book the <a href="http://www.vailcomedyshow.com">Vail Comedy Show</a> in Vail, CO.  I run a weekly online showcase called the <a href = "https://www.markmasters.co/showcase">Comedy Test Kitchen</a>.  Will travel.<br><br>
+                    </p>
+                    <p>
+                        Past performances out of state at the Relapse Theater in Atlanta, GA, The Misfit Hive in New York City, NY, and Silver Nugget Casino in Las Vegas, NV. (Also: AZ, CA, CO, FL, HI, IA, ID, IL, KS, MA, MO, MT, NE, NM, OR, RI, TX, UT, WA) Canada (Toronto) too!<br><br>
+                    </p>
+                    <p style="text-align:center">
+                        <img src="images/500widemap.jpg" width="250"></br></br>
+                    </p>
+                    <p>
+                        Hometown appearances at Comedy Works in Downtown Denver, the Skyline Park Beer Garden, Voodoo Comedy Playhouse, Black Buzzard (Oskar Blues) and many other stages in Denver, CO. <br><br>
+                    </p>
+                    <p>   
+                        Please <a href = "#contact">contact</a> me to get added to a mailing list about future appearances.  Note that I am <a href = "mark-masters-is-not-on-facebook.html">not on Facebook</a> (or Instagram), but I respond to all website inquiries, usually the same day.<br><br>
+                    </p>
+                    <div id="pressphotos">
+                            <h3>Press and Marketing</h3>
+                        <p>
+                            Photography for press and other promotional purposes: </br></br>
+                            2020 - <a href = "images/mark-masters-vbc-jan-2020.jpg">Photo from Newspaper front page</a>, credit: Christopher Dillman/Vail Daily, <a href = "images/mark-masters-mutiny-jan-2020.jpg">the hang at The Mutiny Cafe</a>, credit: <a href = "https://www.flickr.com/photos/40496731@N02">Andrew Bray</a>, <a href = "images/2020-02-13-shmiggitys-steamboat-bw.jpg">on stage in Steamboat Springs, CO</a>, credit: Kalynn Smith</br></br>
+                            2019 - 
+                            <a href = "images/mark-masters-headshot.jpg">Home Club</a> (<a href = "images/mark-masters-headshot-uncropped.jpg">uncropped</a>), credit: Andrew Bray | <a href = "images/mark-masters-chicago-2019.jpg">Chicago, on stage</a></br></br>
+                            2018 - 
+                            <a href = "images/headshot-A-behind-cellar.jpg" target = "_blank">Portrait A</a>, <a href = "images/headshot-B-grisly-pear.jpg" target = "_blank">Portrait B</a>, <a href = "images/headshot-C-comedy-works.png" target = "_blank">Action A</a>, <a href = "images/headshot-D-taurus-wide-miami.jpg" target = "_blank">Action B</a>. 
+                            <br><br>  A <a href = "bio.html">biography</a>.
+                            <br><br>In The News: <br>
+                            <br><a href = "images/2020.01.12.Vail.Daily.Cover.jpg">Front page of Vail Daily, 2020/01/12 (Screenshot)</a></li>
+                            <br><a href = "https://www.aspendailynews.com/arts_and_entertainment/aspen-comedy-show-and-the-great-dubois-circus-make-for/article_48b380c2-3356-11ea-9ffd-f73a9e05c3d5.html">2020/01/10 Aspen Daily Times</a>
+                            <br><a href = "https://www.aspentimes.com/news/silver-city-saloon-plays-host-to-aspen-comedy-show-series/">2020/01/10 Aspen Times</a>
+                            <br><a href = "https://www.vaildaily.com/entertainment/vail-comedy-show-returns-for-another-month-of-laughs-on-saturday/">2020/01/08 Vail Daily (Feature Story)</a>
+                            <br><a href = "https://www.vaildaily.com/entertainment/vail-comedy-show-returns-for-another-month-of-laughs-on-saturday-at-vail-brewing-co/">2019/12/14 Vail Daily</a> 
+                            <br><a href = "https://www.steamboatpilot.com/explore-steamboat/steamboat-comedy-presents-friday-the-13th-show/">2019/09/12 Steamboat Pilot</a>
+                            <br><a href="https://www.vaildaily.com/news/qa-comedian-pat-treuer-talks-corporate-grind-skiing-on-four-continents-and-the-chicago-polar-vortex-ahead-of-vail-show/">2019/09/11 Vail Daily</a>
+                            <br><a href = "https://www.vaildaily.com/entertainment/denver-based-comedian-christie-buchele-is-headlining-the-second-vail-comedy-show-at-vbc-on-saturday/">2019/10/16 Vail Daily</a>
+                            <br>Also, regular appearances on TV8's "Good Morning Vail".
+                        </p>
+                    </div>
+                    <div id="references">
+                            <h3>References</h3>
+                        <p>
+                            A few people have written some nice things about me, there are a lot of comedians and you have a choice when you make your booking decisions, perhaps some thoughts from the <a href = "reference-corporate-1.html">organizer of a corporate event</a>, or the <a href = "reference-comedy-show-1.html">comic host of a bar show</a> will help influence your decision.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="production">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Event Production</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Please <a href = "#contact">contact</a> for more information about showcases for your events.  <br><br>
+                    </p>
+                    <p>
+                    Will travel within <strike>100 miles of Denver, CO</strike> the continental United States.  <br><br>
+                    </p>
+                    <p>
+                    My comedy show for the Denver Founders Network 2018 holiday party featured 8 comics, and entertained over 100 audience members.
+                    <br><br>
+                    </p>
+                    <p>In office shows can include team building exercises such as joke writing workshops and other interactive activities.<br><br>
+                    </p>
+                    <p>
+                    Are you a comic? Ask about the CAH Comedy Series, a monthly two comic (clean) show, focused on travel and experience themes.  <a href = "#contact">Get in touch</a> if you are a comedian interested in performing a paid spot.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    <!-- End #experience -->
+
+    <!-- <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Ottawa</h3>
+            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            </p>
+        </div> -->
+        <!-- End .education-block -->
+
+        <!-- <div class="education-block">
+            <h3>University of Ottawa</h3>
+            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+            </ul>
+        </div> -->
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Shows</h2>
+        <div class="container">
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                                <a href="www.vailcomedyshow.com"><img src="images/vailcomedyshow-alpaca-300-sq.jpg" /></a> 
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Updates Paused</h3>
+                            <p>
+                                    I am behind updating this website with shows and appearances.  Also, you know, pandemic.  Still at it though!  Please check out <a href = "www.vailcomedyshow.com">www.vailcomedyshow.com</a>, my weekly Friday night online showcase called <a href = "https://www.markmasters.co/showcase">Comedy Test Kitchen</a> and my upcoming show dates at top of this website.
+                            </p>
+                            <!-- <a href="#">View Project</a> -->
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                                <img src="images/2020-02-12-desperation-day.jpg" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>February 2020</h3>
+                            <p>
+                                    Featuring for Robbie Bernstein in Steamboat.  Thick Skin at Comedy Works.  Show at The Carter Payne in Colorado Springs. Vail comedy show and multiple shows in Aspen.
+                            </p>
+                            <!-- <a href="#">View Project</a> -->
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                                <img src="images/2020.01.14.freshandclean-voodoo.jpg" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>January 2020</h3>
+                            <p>
+                                    Clean comedy showcase at Voodoo Comedy Theater in Denver, CO.  Appearances on TV8's Good Morning Vail.  Shows in Aspen and Vail and Arizona.
+                            </p>
+                            <!-- <a href="#">View Project</a> -->
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                        <div class="project shadow-large">
+                                <div class="project-image">
+                                        <a href="images/2019-10-19-vail-comedy-show-poster-web.jpg"><img src="images/2019-10-19-vail-comedy-show-poster-web-300.jpg" /></a>
+                                </div>
+                                <!-- End .project-image -->
+                                <div class="project-info">
+                                    <h3>Vail Comedy Show</br>Vail, CO</h3>
+                                    <p>
+                                            Show Host, Producer (150 in audience)</br> 
+                                            Ten minutes up top (audio and video available upon request)</br>
+                                            October 19, 2019</br>
+                                            Also on bill: Christie Buchele, Lila Bear, Eeland Stribling, T.J. Webb
+                                            Click for <a href = "images/2019-10-19-vail-comedy-show-poster-web.jpg">show poster</a>
+                                    </p>
+                                    <!-- <a href="#">View Project</a> -->
+                                </div>
+                                <!-- End .project-info -->
+                            </div>
+                        <div class="project shadow-large">
+                                <div class="project-image">
+                                        <img src="images/2019-10-10-volstead-lounge-300-sq.jpg" />
+                                </div>
+                                <!-- End .project-image -->
+                                <div class="project-info">
+                                    <h3>Fierce Mild</br>Austin, TX</h3>
+                                    <p>
+                                            Three minutes (audio available upon request)</br>
+                                            October 10, 2019</br>
+                                            Volstead Lounge (also in Austin: Love Goat, Cenote Cafe)</br>
+                                    </p>
+                                    <!-- <a href="#">View Project</a> -->
+                                </div>
+                                <!-- End .project-info -->
+                            </div>
+                        <div class="project shadow-large">
+                                <div class="project-image">
+                                        <img src="images/2019-09-25-the-crow-st-louis-mo.jpg" />
+                                </div>
+                                <!-- End .project-image -->
+                                <div class="project-info">
+                                    <h3>Wildcard Wednesday Night Comedy</br>Maplewood, MO</h3>
+                                    <p>
+                                            Four minutes (audio available upon request)</br>
+                                            September 25, 2019</br>
+                                            The Crow's Nest</br>
+                                    </p>
+                                    <!-- <a href="#">View Project</a> -->
+                                </div>
+                                <!-- End .project-info -->
+                            </div>
+                        <div class="project shadow-large">
+                                <div class="project-image">
+                                        <img src="images/2019-09-24-wsoc-300-sq.jpg" />
+                                </div>
+                                <!-- End .project-image -->
+                                <div class="project-info">
+                                    <h3>The World Series of Comedy Main Event</br>East St. Louis, IL</h3>
+                                    <p>
+                                            Five minutes (audio available upon request)</br>
+                                            September 24, 2019</br> 
+                                            Casino Queen Hotel, show hosted by Jerry Corley</br>
+                                            
+                                            
+                                    </p>
+                                    <!-- <a href="#">View Project</a> -->
+                                </div>
+                                <!-- End .project-info -->
+                            </div>
+                <div class="project shadow-large">
+                        <div class="project-image">
+                                <a href="images/2019-09-14-vail-comedy-show-poster-1800.jpg"><img src="images/2019-09-14-vail-comedy-show-poster-300.jpg" /></a>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Vail Comedy Show</br>Vail, CO</h3>
+                            <p>
+                                    Show Host</br> 
+                                    Five to ten minutes up top (no video or audio available, sad face)</br>
+                                    September 14, 2019</br>
+                                    Also on bill: Derrick Stroup, Pat Treuer, Kallen Reece, Andy Hamilton<br>
+                                    Click for <a href = "images/2019-09-14-vail-comedy-show-poster-1800.jpg">show poster</a>
+                            </p>
+                            <!-- <a href="#">View Project</a> -->
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <div class="project shadow-large">
+                            <div class="project-image">
+                                    <a href="images/2019-09-13-steamboat-comedy-show-poster-1800.jpg"><img src="images/2019-09-13-steamboat-comedy-show-poster-300.png" /></a>
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Steamboat Comedy Show</br>Steamboat Springs, CO</h3>
+                                <p>
+                                        20 minutes, September 13, 2019 (audio and video available on request)</br>
+                                        Click for <a href = "images/2019-09-13-steamboat-comedy-show-poster-1800.jpg">show poster</a>
+                                </p>
+                                <!-- <a href="#">View Project</a> -->
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <div class="project shadow-large">
+                                <div class="project-image">
+                                        <a href="images/2019-09-09-Midwest-comedy-tour.jpg"><img src="images/2019-09-09-Midwest-comedy-tour-sq-300.jpg" /></a>
+                                </div>
+                                <!-- End .project-image -->
+                                <div class="project-info">
+                                    <h3>Midwest Comedy Tour September 2019</br>KS, IA, IL, NE</h3>
+                                    <p>
+                                            Clint's Comedy Stop, Overland Park, KS (<a href = "images/2019-09-01-clints-kansas.png">pic</a>)</br>
+                                            Iowa Yacht Club, Iowa City, IA (<a href = "images/2019-09-02-iowa-city-iowa.png">pic</a>)</br>
+                                            Harrigan's, Blarney Stone, Irish Oak, Chicago, IL (<a href = "images/2019-09-06-irish-oak-chicago.jpg">pic</a>)</br>
+                                            Barley Street Tavern, Omaha, NE (<a href = "images/2019-09-07-barley-street-tavern.png">pic</a>)</br>
+                                            Fraternal Order of Eagles 4029, Papillion, NE  (<a href = "images/2019-09-07-foe-4029.png">pic</a>)</br>
+                                        </br></br>
+                                            Four to seven minutes, September 1-7, 2019 (audio and video available on request)</br>
+                                            Click for <a href = "images/2019-09-09-Midwest-comedy-tour.jpg">tour poster</a>
+                                    </p>
+                                    <!-- <a href="#">View Project</a> -->
+                                </div>
+                                <!-- End .project-info -->
+                            </div>
+                        <div class="project shadow-large">
+                                    <div class="project-image">
+                                            <a href="images/2019-08-27-NTN-CW-Mark-On-Stage-sq.jpg"><img src="images/2019-08-27-NTN-CW-Mark-On-Stage-sq-300.jpg" /></a>
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Comedy Works Downtown</br>Denver, CO</h3>
+                                        <p>
+                                                Three minutes, August 27, 2019 (audio and video available on request)</br>Also on bill: Christie Buchele, Mike Stanley, Talon Saucerman, Ben Bryant
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                    </div>
+                    <a id="view-more-projects" href="#">View More Shows</a>
+                </br>
+                    <div id="more-projects" class="row">
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                            <a href="images/2019-07-31-aspen-vault-large.jpg"><img src="images/2019-07-31-aspen-vault.jpg" /></a>
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>The Vault at The Wheeler Opera House</br>Aspen, CO</h3>
+                                        <p>
+                                            Six minutes, July 31, 2019 (Video available on request)</br>
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                                <div class="project shadow-large">
+                                        <div class="project-image">
+                                                <a href="images/2019-07-13-palmerlakefair-large.jpg"><img src="images/2019-07-13-palmerlakefair-sq-300.jpg" /></a>
+                                        </div>
+                                        <!-- End .project-image -->
+                                        <div class="project-info">
+                                            <h3>Fair at Palmer Lake</br>Palmer Lake, CO</h3>
+                                            <p>
+                                                Ten minutes (in 90 degree heat!), July 13, 2019 (Audio available on request)</br>
+                                            </p>
+                                            <!-- <a href="#">View Project</a> -->
+                                        </div>
+                                        <!-- End .project-info -->
+                                    </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <a href="images/summer-2019-tour-poster.pdf"><img src="images/summer-2019-tour-poster-sq-300.jpg" /></a>
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Summer 2019 Comedy Tour, Northwest America</br>CO, UT, ID, MT, WA, OR</h3>
+                                        <p>
+                                            Missoula, MT - Seattle, WA - Portland, OR - Boise, ID (<a href="images/summer-2019-tour-poster.pdf">click for tour poster</a>)</br>
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <a href="https://theworldseriesofcomedy.com/loonees"><img src="images/2019-06-19-wsoc-loonees.jpg" /></a>
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>World Series of Comedy, Loonee's</br>Colorado Springs, CO</h3>
+                                        <p>
+                                            5 minutes, June 19, 2019, <a href="https://theworldseriesofcomedy.com/loonees">click for event page</a>, (Video available on request)</br>
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <a href="images/tandoori-2019-05-15.jpeg"><img src="images/2019-05-15-tandoori-boulder.jpg" /></a>
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Headliner, Tandoori Grill</br>Boulder, CO</h3>
+                                        <p>
+                                            30 minutes, May 15, 2019 (Video available on request)</br>
+                                            Featuring Eeland Stribling & special guest James Gold</br>
+                                            (<a href="images/tandoori-2019-05-15.jpeg">Click for show poster</a>)
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <img src="images/2019-04-19-tv-taping.jpg" />
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                            <h3>Live TV Taping</br>Denver, CO</h3>
+                                        <p>
+                                            10-15 minutes - April 19, 2019 (Video available on request)
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <a href ="images/2019-04-06-spotlight-poster-markmasters.jpg"><img src="images/2019-04-06-pueblo-spotlight.jpg" /></a>
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Headliner, The Spotlight</br>Pueblo, CO</h3>
+                                        <p>
+                                            30 minutes, hosted by Garrett Waller - April 6, 2019 (Video available on request)
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <img src="images/miami-taurus-2019.jpg" />
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Comedy Showcase, Taurus Whisk(e)y Bar</br>Miami, FL</h3>
+                                        <p>
+                                            8 minute set for 40 people - March 28, 2019 (Video available on request)
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <img src="images/2019-03-22-chicago.jpg" />
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Comedy Charity Show, The Irish Oak</br>Chicago, IL</h3>
+                                        <p>
+                                            5 minute set for 50 people - March 22, 2019 (Video available on request)
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <img src="images/aspen-sq-300.jpg" />
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Aspen Laugh Festival at Silver City Saloon</br>Comedy Competition</br>Aspen, CO</h3>
+                                        <p>
+                                            4-5 minute set for 75 people - February 7, 2019 (Video available on request)
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <img src="images/markmastersholidayhahaha2018-sq-300.png" />
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                            <h3>Holiday Ha Ha Ha,</br>Denver Founders Network Holiday Party</br>Denver, CO</h3>
+                                            <p>
+                                                Host and producer of show with 7 other comics and 100+ audience - December 4, 2018 (5-10 minute video and CD quality audio available on request)
+                                            </p>
+                                            <!-- <a href="#">View Project</a> -->
+                                        </div>
+                                    <!-- End .project-info -->
+                                </div>
+                            <div class="project shadow-large">
+                                    <div class="project-image">
+                                        <img src="images/mark-marie-gig-sq-300.jpg" />
+                                    </div>
+                                    <!-- End .project-image -->
+                                    <div class="project-info">
+                                        <h3>Calloway Real Estate Group,</br>Holiday Party</br>Westminster, CO</h3>
+                                        <p>
+                                            15 minute set for 40 guests - November 27, 2018 (Video and CD quality audio available on request)
+                                        </p>
+                                        <!-- <a href="#">View Project</a> -->
+                                    </div>
+                                    <!-- End .project-info -->
+                                </div>
+                <div class="row">
+                        <div class="project shadow-large">
+                            <div class="project-image">
+                                <img src="images/livehiveposter-300.png" />
+                            </div>
+                            <!-- End .project-image -->
+                            <div class="project-info">
+                                <h3>Live at the Hive, Misfit Hive</br>New York City, NY</h3>
+                                <p>
+                                    Showcase set - October 11, 2018 (Video available on request)
+                                </p>
+                                <!-- <a href="#">View Project</a> -->
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                    </div>
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/mark-cw1-300-square.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Comedy Works,</br>Downtown Location,</br>Denver, CO</h3>
+                        <p>
+                            Josh Blue headliner - September 18, 2018 (Video available on request)
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+            </div>
+    <div class="project shadow-large">
+        <div class="project-image">
+            <img src="images/project.jpg" />
+        </div>
+        <!-- End .project-image -->
+            <div class="project-info">
+                <h3>Skyline Park Beer Garden,</br>Downtown Denver, CO</h3>
+                <p>
+                    Featured Comic - July 28, 2018 (Audio available on request)
+                </p>
+            </div>
+        <!-- End .project-info -->
+    </div>
+    <!-- End .project -->
+</div>
+        
+    <!-- End #projects -->
+
+    <div id="experience" class="background-alt">
+            <h2 class="heading">Appearances</h2>
+            <div id="experience-timeline">
+                    <div data-date="Updates Paused">
+                            <h3>Please see note under shows.</h3>
+                            <h4>I am still working and available!</h4>
+                            <p>
+                                Thank you!
+                            </p>
+                        </div>
+                    <div data-date="October 3, 2019">
+                            <h3>Closing Night at Relapse Theater</h3>
+                            <h4>Atlanta, GA</h4>
+                            <p>
+                                Three to four minutes, also Maggie's
+                            </p>
+                        </div>
+                    <div data-date="July 25, 2019">
+                            <h3>RE/MAX Colorado Springs</h3>
+                            <h4>Colorado Springs, CO</h4>
+                            <p>
+                                Fifteen minutes for corporate party</br>Clean comedy set
+                            </p>
+                        </div>
+                    <div data-date="May 28, 2019">
+                            <h3>Comedy Works Downtown</h3>
+                            <h4>Denver, CO</h4>
+                            <p>
+                                Three minutes, audio and video available on request</br>Also on bill: Sam Tallent, Trixx, Mitch Fatel, Nancy Norton
+                            </p>
+                        </div>
+                        <div data-date="May 20, 2019">
+                            <h3>Comedy Works Downtown</h3>
+                            <h4>Denver, CO</h4>
+                            <p>
+                                Four minutes, audio and video available on request</br>Thick Skin show hosted by Mike Stanley & Matt Cobos.  Headliner: Caleb Synan 
+                            </p>
+                        </div>                      
+                    <div data-date="May 5, 2019">
+                            <h3>Mojo Lounge</h3>
+                            <h4>Fremont, CA (Silicon Valley)</h4>
+                            <p>
+                                Six minutes, audio and video available on request
+                            </p>
+                        </div>
+                    <div data-date="April 24, 2019">
+                            <h3>Improv Boston</h3>
+                            <h4>Boston, MA</h4>
+                            <p>
+                                Four minutes, audio and video available on request
+                            </p>
+                        </div>
+                    <div data-date="April 10, 2019">
+                            <h3>Pine Tar Grill</h3>
+                            <h4>San Francsico, CA</h4>
+                            <p>
+                                Four minutes, audio and video available on request
+                            </p>
+                        </div>
+                    <div data-date="March 13, 2019">
+                            <h3>Wiseguys Comedy Club</h3>
+                            <h4>Salt Lake City, UT</h4>
+                            <p>
+                                Three minutes, audio and video available on request
+                            </p>
+                        </div>
+                    <div data-date="February 20, 2019">
+                            <h3>Comedy Works South</h3>
+                            <h4>Greenwood Village, CO</h4>
+                            <p>
+                                Three minutes, audio and video available on request
+                            </p>
+                        </div>
+                    <div data-date="February 1, 2019">
+                            <h3>Relapse Theater</h3>
+                            <h4>Atlanta, GA</h4>
+                            <p>
+                                Three minutes, audio and video available on request
+                            </p>
+                        </div>
+                    <div data-date="January 25, 2019">
+                            <h3>Highside Cocktail Bar</h3>
+                            <h4>Phoeniz, AZ</h4>
+                            <!-- Come out to Highside Bar tonight for Friday Night Laughs! The lineup is killer. We have Matt micheletti (Errant Knights, The Mystery Show) Steve Costa (Albuquerque, NM) Anwar Newton (Phoenix New Times Best Comedian 2017 & 2018) Allen Strickland Williams (Conan, Comedy Centrals "10 Comics To Watch in 2019") and a guest set or two. -->
+                            <p>
+                                Five minutes, audio and video available on request
+                            </p>
+                        </div>
+                        <div data-date="January 24, 2019">
+                                <h3>Loonee's Comedy Club</h3>
+                                <h4>Colorado Springs, CO</h4>
+                                <p>
+                                    Three minutes, audio and video available on request
+                                </p>
+                            </div>
+                    <div data-date="December 1, 2018">
+                            <h3>Ha Ha Comedy Club</h3>
+                            <h4>Los Angeles (Hollywood), CA</h4>
+                            <p>
+                                Four minutes, audio available on request
+                            </p>
+                        </div>
+                    <div data-date="November 12, 2018">
+                            <h3>The Mine</h3>
+                            <h4>Breckenridge, CO</h4>
+                            <p>
+                                Ten minutes, audio and video available on request
+                            </p>
+                        </div>
+    
+                    <div data-date="November 10, 2018">
+                            <h3>Phone It In Film Festival</h3>
+                            <h4>Denver, CO</h4>
+                            <p>
+                                Accepted short film "Fire Safety" premiered at LIFX Filmworks, video available on request
+                            </p>
+                        </div>
+    
+                    <div data-date="November 4, 2018">
+                            <h3>Tiny's Restaurant & Lounge</h3>
+                            <h4>Santa Fe, NM</h4>
+                            <p>
+                                5 minutes, audio available on request
+                            </p>
+                        </div>
+    
+                <div data-date="August 9, 2018">
+                    <h3>Silver Nuggest Casino</h3>
+                    <h4>Las Vegas, NV</h4>
+                    <p>
+                        5 minutes, audio available on request
+                    </p>
+                </div>
+                
+                <div data-date="July 2, 2018">
+                    <h3>Timeout Lounge</h3>
+                    <h4>Tempe, AZ</h4>
+                    <p>
+                        5 minutes, audio available on request
+                    </p>
+                </div>
+    <!--
+                    <div data-date="May 7, 2018">
+                        <h3>Google Entertainment Complex</h3>
+                        <h4>Sunnyvale, CA</h4>
+                        <p>
+                            Solo performance, 10+ minutes, high definition edited video available on request
+                        </p>
+                    </div>
+        -->
+            </div>
+        </div>
+
+
+
+    <div id="skills">
+        <h2 class="heading">Joke Topics</h2>
+        <ul>
+            <li>Snowboarding</li>
+            <li>Google</li>
+            <li>Bitcoin</li>
+            <li>Consumer DNA Tests</li>
+            <li>Red Lobster</li>
+            <li>Netflix</li>
+            <li>Whole Foods</li>
+            <li>NFL</li>
+            <li>USA</li>
+            <li>Sammy Davis Jr.</li>
+            <li>Accountants</li>
+            <li>Smurfs</li>
+            <li>Airbnb</li>
+            <li>Swiss Cheese</li>
+            <li>Job Titles</li>
+            <li>Iran</li>
+            <li>Jurassic Park</li>
+            <li>Animals</li>
+            <li>Smart Devices</li>
+            <li>Software</li>
+            <li>Data Science</li>
+            <li>Notebooks</li>
+            <li>Nationalism</li>
+            <li>Mattress</li>
+            <li>Dove Soap</li>
+            <li>Cops</li>
+            <li>Road Signs</li>
+            <li>Real Estate</li>
+            <li>Kid Topics</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch / Contact / Say Hello</h2>
+        <p style="text-align:center;color:white;">Your note will go straight to my personal email, and I will respond within one day 99% of the time.  <br>I look forward to hearing from you.</p>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/funnymarkmasters+siteform@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+        <!-- Begin Mailchimp Signup Form -->
+</br></br></br>
+<div id="laughlist">
+    <h2>Join the Mark Masters e-mail list</h2>
+    <h2>Stories from my comedy journey. &nbsp; Just once per month.</h2>
+    
+    <form action="https://markmasters.us20.list-manage.com/subscribe/post?u=55516ee230e8d383fce94c7ef&amp;id=e58073dfdd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+    <table width="100%"><tr><td>
+	<input type="email" value="" name="EMAIL" placeholder="Email *" id="mce-EMAIL"></br></br></td></tr>
+    
+   <tr><td> <input type="text" value="" name="FNAME" placeholder="First Name *" id="mce-FNAME"></br></br></td></tr>
+
+    <tr><td><input type="text" value="" name="LNAME" placeholder="Last Name *" id="mce-LNAME"></br></br></td></tr>
+
+    <tr><td><input type="text" value="" name="MMERGE7" placeholder="zipcode" id="mce-MMERGE7"></br></br></td></tr>
+    <tr><td></td><p style="text-align:center;color:white;"><input type="checkbox" name="group[19371][1]" value ="1" id = "mce-group[19371]-19371-0" checked><label for="mce-group[19371]-19371-0">Mark Masters Comedian</label></input></p></td></tr>
+
+</table>	
+
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_55516ee230e8d383fce94c7ef_e58073dfdd" tabindex="-1" value=""></div>
+    <button type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe">Join</button></form>
+    </div>
+</form>
+</div>
+</br></br></br>
+<div id="book1">
+    BOOK BOOK BOOK!!! </br></br>Not Good Yet is available now in paperback at local retailers and online, on e-readers like the Kindle and Nook and widely distributed as an Audiobook. 
+</br></br>Please visit the book website, <a href="http://www.notgoodyet.com">notgoodyet.com</a> for all the links.
+</br></br><img src="images/kindle-cover-mini.jpg">
+</div>
+<div id="podcast">
+</br></br>PODCAST & WEB SERIES</br></br>
+        In late 2019 the Mark Masters web series and podcast was launched.  
+</br></br>It is available on <a  href="https://www.youtube.com/channel/UCU98_R_deruKAHQWAAazY0Q/">YouTube</a> and most podcast platforms, if it is not on yours please reach out and we will add it.  
+</br></br>New episodes come out every Monday for season 1. 
+</br></br>Get more info and all the links at this dedicated <a href = "podcast-and-web-series.html">Mark Masters podcast and web series</a> page. 
+</br></br><a href = "podcast-and-web-series.html"><img src="podcast/art/artwork-tnail.jpg" width = "200"></a>
+    </div>
+    <div id="parker">
+    </br></br>Parker Comedy Show </br></br>Parker, CO was named the 2nd best place to live in America by Money Magazine, maybe you should check out the <a href = "https://www.parkercomedyshow.com">Parker Comedy Show</a>.
+    </div>
+<!--End mc_embed_signup-->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 MARK MASTERS
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://www.reddit.com/user/funnymarkmasters?sort=top&t=all" target="_blank"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://soundcloud.com/mark-masters-432936412/" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="podcast.html" target="_blank"><i class="fa fa-file-sound-o" aria-hidden="true"></i></a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
